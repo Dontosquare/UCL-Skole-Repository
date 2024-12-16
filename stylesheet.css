@@ -171,6 +171,18 @@ textarea {
     border-radius: 10px;
 }
 
+.animation {
+    width: 400px;
+    height: 400px;
+    background: url('https://i.imghippo.com/files/GZD7521pUM.webp') 0 0 no-repeat;
+    animation: play 2000ms steps(8) infinite; 
+    margin: auto;
+}
+
+@keyframes play {
+    0%{background-position: 0px;}
+    100% { background-position: -3200px; }
+}
 
 
 
@@ -194,6 +206,10 @@ textarea {
 
     .textbox__heading{
         font-size: 50px;
+    }
+
+    .textbox__img__projects {
+        margin: auto;
     }
 
     .textbox__paragraphs {

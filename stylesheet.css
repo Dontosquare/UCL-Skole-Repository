@@ -1,13 +1,14 @@
 
 
-
 body{
     margin: 0px;
     background-image: url(mbjicons.webp);
     background-repeat: no-repeat;
-    background-position-x: 250px;
+    background-position-x: 236px;
     background-position-y: 140px;
     background-size: 50%;
+
+    
 }
 
 .header {
@@ -174,7 +175,7 @@ textarea {
 
 .animation {
     width: 400px;
-    height: 370px;
+    height: 400px;
     background: url('https://i.imghippo.com/files/GZD7521pUM.webp') 0 0 no-repeat;
     animation: play 2000ms steps(8) infinite; 
     margin: auto;

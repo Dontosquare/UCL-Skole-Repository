@@ -3,7 +3,7 @@
 
 body{
     margin: 0px;
-    background-image: url(mbj\ icons.webp);
+    background-image: url(mbjicons.webp);
     background-repeat: no-repeat;
     background-position-x: 250px;
     background-position-y: 140px;
@@ -104,20 +104,23 @@ body{
 }
 
 .textbox__buttons {
+    display: flex;
+    justify-content: center;
     font-family: outfit;
     text-decoration-line: none;
     background-color: #C8B392;
     border-radius: 10px;
     color: white;
-    border-color: white;
-    display: block;
-    margin: auto;
+    padding: 3px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    
     /*filter: drop-shadow(30px, 10px, 4px #000000);*/
 }
 
 .textbox__buttons:hover {
     color: #C8B392;
-    border-color: #C8B392;
     background-color: white;
 }
 
@@ -174,7 +177,7 @@ textarea {
 @media screen and (min-width: 489px) {
     
     body {
-        background-image: url(MBJ\ icon.png);
+        background-image: url(mbjicons.webp);
         background-repeat: no-repeat;
         background-position: right;
         background-size: 40%;
@@ -208,7 +211,7 @@ textarea {
 @media screen and (min-width: 992px) {
 
     body {
-        background-image: url(mbj\ icons.webp);
+        background-image: url(mbjicons.webp);
         background-repeat: no-repeat;
         background-position: right;
         background-size: 40%;
@@ -272,6 +275,8 @@ textarea {
     .textbox__buttons {
         display: flex;
         justify-content: center;
+        margin-left: 850px;
+        margin-right: 850px;
 
     }
 

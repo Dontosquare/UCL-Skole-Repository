@@ -112,8 +112,8 @@ body{
     border-radius: 10px;
     color: white;
     padding: 3px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
     text-align: center;
     
     /*filter: drop-shadow(30px, 10px, 4px #000000);*/
@@ -186,7 +186,7 @@ textarea {
 
 
 
-@media screen and (min-width: 489px) {
+@media screen and (min-width: 719px) {
     
     body {
         background-image: url(mbjicons.webp);
@@ -220,6 +220,8 @@ textarea {
 
     .textbox__buttons {
         font-size: 20px;
+        margin-left: 300px;
+        margin-right: 300px;
     }
 }
 
